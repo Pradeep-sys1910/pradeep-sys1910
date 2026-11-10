@@ -22,10 +22,11 @@ const pradeep = {
   location    : "Madipakkam, Chennai, India 🇮🇳",
   degree      : "B.Tech Computer Science @ SRMIST (3rd Year)",
   languages   : ["Python", "C++", "Java", "C", "JavaScript"],
-  web         : ["HTML5", "CSS3", "JavaScript", "Node.js", "React"],
-  database    : ["PostgreSQL", "SQL"],
+  web         : ["Next.js", "React", "Node.js", "Express", "Tailwind CSS"],
+  database    : ["PostgreSQL", "Prisma", "SQL"],
   currentlyAt : "Web Dev Intern @ SaiKet Systems",
-  learning    : ["Cloud Computing", "Full-Stack Architecture", "Scalable Systems"],
+  shipped     : "BeLife — live at www.belife.site 🌿",
+  learning    : ["Cloud Computing", "Big Data (Hadoop)", "Scalable Systems"],
   funFact     : "I turn caffeine into clean commits ☕→💻",
   motto       : () => "I build things that matter — clean code, solid systems, real products."
 };
@@ -45,21 +46,33 @@ const pradeep = {
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**Web Development**
+**Frontend**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**Backend**
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 **Database**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black)
 
 **Cloud, DevOps & Tools**
 
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -70,12 +83,14 @@ const pradeep = {
 
 | Area | What I work with |
 |:---|:---|
-| **Frontend** | Semantic HTML5, modern CSS3 (Flexbox, Grid, animations), responsive & mobile-first design, ES6+ JavaScript, DOM manipulation, React (component-driven UI) |
-| **Backend** | Node.js, building REST APIs, routing & middleware, request/response handling |
-| **Database** | PostgreSQL & SQL: schema design, joins, queries, relational data modelling |
-| **Tooling** | Git & GitHub workflows, VS Code, browser DevTools, API testing |
-| **Deployment** | Hosting and deploying live web apps on Render |
-| **Practices** | Cross-browser compatibility, accessibility basics, clean & maintainable code, web security fundamentals (auth flows, OWASP basics) |
+| **Frontend** | Semantic HTML5, modern CSS3 (Flexbox, Grid), Tailwind CSS, responsive & mobile-first design, ES6+ JavaScript, React, Next.js 14 (App Router), Zustand state management |
+| **Backend** | Node.js & Express, REST API design, JWT authentication, middleware, real-time communication with Socket.IO |
+| **Database** | PostgreSQL & SQL, schema design, Prisma ORM, relational data modelling, cascade deletes, unique constraints |
+| **Cloud & Storage** | Presigned-URL uploads to Cloudflare R2, per-user quotas, file type & size validation |
+| **Email & Auth Flows** | Email verification, password reset with expiring tokens, transactional emails (Brevo), secure account deletion |
+| **SEO** | `robots.ts`, dynamic `sitemap.ts`, Open Graph & Twitter cards, canonical URLs, Google Search Console |
+| **Deployment** | Vercel (frontend), Render (backend), Neon (database), custom domain setup |
+| **Practices** | Git & GitHub workflows, accessibility basics, clean & maintainable code, web security fundamentals |
 
 ---
 
@@ -149,11 +164,50 @@ const pradeep = {
 
 ## 🚀 Featured Projects
 
+### 🌿 [BeLife](https://www.belife.site) — Full-Stack Blogging & Community Platform
+
+> Built from scratch and deployed live at **[www.belife.site](https://www.belife.site)**
+
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+- 🔐 **Secure auth system:** registration with unique `@username`, email verification, JWT sessions, password reset and a confirmed account-deletion flow
+- ✍️ **Blogging:** write & publish posts with slugs, tags, read time, views, likes, comments, search and pagination
+- 💬 **Real-time direct messaging** built with Socket.IO
+- 📧 **Branded transactional emails** (verification, welcome, password reset, deletion, newsletter) via Brevo
+- ☁️ **Secure media uploads** to Cloudflare R2 using short-lived presigned URLs, file validation and per-user storage quotas
+- 🔎 **SEO-ready:** sitemap, robots rules, Open Graph / Twitter cards, indexed on Google Search Console
+- 📱 Fully responsive across mobile, tablet and desktop, plus Terms of Service & Privacy Policy pages
+- 🚢 **Deployment:** Vercel (frontend) · Render (backend) · Neon (PostgreSQL) · Namecheap (domain)
+
+[🌐 Live Site](https://www.belife.site) &nbsp;•&nbsp; [💻 Frontend Repo](https://github.com/Pradeep-sys1910/BELIFE-FRONTEND) &nbsp;•&nbsp; [⚙️ Backend Repo](https://github.com/Pradeep-sys1910/BELIFE-BACKEND)
+
+<br/>
+
+### 🐘 Airline Flight Delay Analytics Using Hadoop — Big Data Engineering Project
+
+> Academic team project for the Big Data Engineering (BDE) course, SRMIST — CSE (Cloud Computing)
+
+![Hadoop](https://img.shields.io/badge/Apache_Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
+![Big Data](https://img.shields.io/badge/Big_Data-Analytics-70A5FD?style=flat-square)
+
+- Analyses large-scale airline flight data using the Hadoop ecosystem to uncover flight delay patterns
+- Team project developed with classmates as part of the B.Tech curriculum
+
+<br/>
+
+### 🗂️ Other Projects
+
 <div align="center">
 
 | Project | Stack | Highlights |
 |:---|:---|:---|
-| [**🌐 Personal Portfolio**](https://pradeep-protofolio.onrender.com) | HTML · CSS · JavaScript · Render | Fully responsive portfolio deployed live on Render; optimised for desktop & mobile |
+| [**🌐 Personal Portfolio**](https://pradeep-protofolio.onrender.com) | HTML · CSS · JS · Render | Fully responsive portfolio deployed live on Render; desktop & mobile optimised |
+| [**☁️ Cloud Vault**](https://github.com/pradeep-sys1910) | HTML · CSS · JavaScript | Cloud storage dashboard with file management |
 
 </div>
 
@@ -167,7 +221,8 @@ const pradeep = {
 |:---:|:---|:---|
 | 🎓 | **SRMIST Scholar** | B.Tech CS @ one of India's premier tech institutions (2024–2028) |
 | 💼 | **Industry Internship** | Selected as Web Dev Intern at ISO 9001:2015 certified SaiKet Systems (Ref: SKS/A2/C124395) |
-| 🌐 | **Live Deployment** | Portfolio deployed and publicly accessible at [pradeep-protofolio.onrender.com](https://pradeep-protofolio.onrender.com) |
+| 🌿 | **Production Platform** | Built and launched BeLife end-to-end: auth, real-time messaging, email, SEO, cloud storage and deployment |
+| 🌐 | **Live Deployments** | [www.belife.site](https://www.belife.site) and [pradeep-protofolio.onrender.com](https://pradeep-protofolio.onrender.com) |
 
 </div>
 
@@ -189,7 +244,8 @@ const pradeep = {
 
 ```
 🧱 Cloud Computing     →  AWS, GCP fundamentals, cloud-ready architectures
-⚛️  React / Node.js    →  Component-driven UI, REST APIs, full-stack patterns
+🐘 Big Data            →  Hadoop ecosystem, large-scale data analytics
+⚛️  React / Next.js    →  Component-driven UI, server rendering, full-stack patterns
 🗄️  PostgreSQL         →  Advanced SQL, query optimisation, scalable data modelling
 🔒  Web Security       →  Auth flows, OWASP basics, secure deployments
 ```
@@ -201,6 +257,7 @@ const pradeep = {
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=vercel&logoColor=white)](https://pradeep-protofolio.onrender.com)
+[![BeLife](https://img.shields.io/badge/BeLife-2E7D32?style=flat-square&logo=leaflet&logoColor=white)](https://www.belife.site)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/pradeepparthasarathy-0274793b1)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pradeepparthasarathy1910@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pradeep-sys1910)
